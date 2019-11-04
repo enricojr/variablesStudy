@@ -181,9 +181,9 @@ int mergeDYHVT(){
   fileNameIn.clear();
 
   // 250 GeV
-  fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16a_RNNCut0p8_pDNN_SelSpin0/FlatTree_DYHVT250__spin0.root");
-  fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16d_RNNCut0p8_pDNN_SelSpin0/FlatTree_DYHVT250__spin0.root");
-  fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16e_RNNCut0p8_pDNN_SelSpin0/FlatTree_DYHVT250__spin0.root");
+  fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16a_RNNCut0p8_pDNN_SelSpin0/FlatTree_DYHVT250_spin0.root");
+  fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16d_RNNCut0p8_pDNN_SelSpin0/FlatTree_DYHVT250_spin0.root");
+  fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16e_RNNCut0p8_pDNN_SelSpin0/FlatTree_DYHVT250_spin0.root");
   fileNameOut = "/nfs/kloe/einstein2/enricojr/data/2019-11-04/merged/DYHVT250.root";
   if(merge(fileNameIn, fileNameOut)){
     cout << __PRETTY_FUNCTION__ << ": ERROR!!! - cannot merge files" << endl;
@@ -1058,21 +1058,21 @@ int mergeVBFHVT(){
   }
   fileNameIn.clear();
 
-  // 5000 GeV
-  fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16a_RNNCut0p8_pDNN_SelSpin0/FlatTree_VBFHVT5000_spin0.root");
-  fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16d_RNNCut0p8_pDNN_SelSpin0/FlatTree_VBFHVT5000_spin0.root");
-  fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16e_RNNCut0p8_pDNN_SelSpin0/FlatTree_VBFHVT5000_spin0.root");
-  fileNameOut = "/nfs/kloe/einstein2/enricojr/data/2019-11-04/merged/VBFHVT5000.root";
-  if(merge(fileNameIn, fileNameOut)){
-    cout << __PRETTY_FUNCTION__ << ": ERROR!!! - cannot merge files" << endl;
-    return 1;
-  }
-  fileNameIn.clear();
+  // // 5000 GeV
+  // fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16a_RNNCut0p8_pDNN_SelSpin0/FlatTree_VBFHVT5000_spin0.root");
+  // fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16d_RNNCut0p8_pDNN_SelSpin0/FlatTree_VBFHVT5000_spin0.root");
+  // fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16e_RNNCut0p8_pDNN_SelSpin0/FlatTree_VBFHVT5000_spin0.root");
+  // fileNameOut = "/nfs/kloe/einstein2/enricojr/data/2019-11-04/merged/VBFHVT5000.root";
+  // if(merge(fileNameIn, fileNameOut)){
+  //   cout << __PRETTY_FUNCTION__ << ": ERROR!!! - cannot merge files" << endl;
+  //   return 1;
+  // }
+  // fileNameIn.clear();
 
   // 600 GeV
-  fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16a_RNNCut0p8_pDNN_SelSpin0/FlatTree_VBFHVT600__spin0.root");
-  fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16d_RNNCut0p8_pDNN_SelSpin0/FlatTree_VBFHVT600__spin0.root");
-  fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16e_RNNCut0p8_pDNN_SelSpin0/FlatTree_VBFHVT600__spin0.root");
+  fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16a_RNNCut0p8_pDNN_SelSpin0/FlatTree_VBFHVT600_spin0.root");
+  fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16d_RNNCut0p8_pDNN_SelSpin0/FlatTree_VBFHVT600_spin0.root");
+  fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16e_RNNCut0p8_pDNN_SelSpin0/FlatTree_VBFHVT600_spin0.root");
   fileNameOut = "/nfs/kloe/einstein2/enricojr/data/2019-11-04/merged/VBFHVT600.root";
   if(merge(fileNameIn, fileNameOut)){
     cout << __PRETTY_FUNCTION__ << ": ERROR!!! - cannot merge files" << endl;
@@ -1081,9 +1081,9 @@ int mergeVBFHVT(){
   fileNameIn.clear();
 
   // 700 GeV
-  fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16a_RNNCut0p8_pDNN_SelSpin0/FlatTree_VBFHVT700__spin0.root");
-  fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16d_RNNCut0p8_pDNN_SelSpin0/FlatTree_VBFHVT700__spin0.root");
-  fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16e_RNNCut0p8_pDNN_SelSpin0/FlatTree_VBFHVT700__spin0.root");
+  fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16a_RNNCut0p8_pDNN_SelSpin0/FlatTree_VBFHVT700_spin0.root");
+  fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16d_RNNCut0p8_pDNN_SelSpin0/FlatTree_VBFHVT700_spin0.root");
+  fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16e_RNNCut0p8_pDNN_SelSpin0/FlatTree_VBFHVT700_spin0.root");
   fileNameOut = "/nfs/kloe/einstein2/enricojr/data/2019-11-04/merged/VBFHVT700.root";
   if(merge(fileNameIn, fileNameOut)){
     cout << __PRETTY_FUNCTION__ << ": ERROR!!! - cannot merge files" << endl;
@@ -1092,9 +1092,9 @@ int mergeVBFHVT(){
   fileNameIn.clear();
 
   // 800 GeV
-  fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16a_RNNCut0p8_pDNN_SelSpin0/FlatTree_VBFHVT800__spin0.root");
-  fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16d_RNNCut0p8_pDNN_SelSpin0/FlatTree_VBFHVT800__spin0.root");
-  fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16e_RNNCut0p8_pDNN_SelSpin0/FlatTree_VBFHVT800__spin0.root");
+  fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16a_RNNCut0p8_pDNN_SelSpin0/FlatTree_VBFHVT800_spin0.root");
+  fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16d_RNNCut0p8_pDNN_SelSpin0/FlatTree_VBFHVT800_spin0.root");
+  fileNameIn.push_back("/nfs/kloe/einstein2/enricojr/data/2019-11-04/mc16e_RNNCut0p8_pDNN_SelSpin0/FlatTree_VBFHVT800_spin0.root");
   fileNameOut = "/nfs/kloe/einstein2/enricojr/data/2019-11-04/merged/VBFHVT800.root";
   if(merge(fileNameIn, fileNameOut)){
     cout << __PRETTY_FUNCTION__ << ": ERROR!!! - cannot merge files" << endl;
