@@ -1,0 +1,6 @@
+#!/bin/bash
+
+rm -rf *~
+rm -rf includes/*~
+rm -rf MyDNNKit/*~
+rm -rf scripts/*~
