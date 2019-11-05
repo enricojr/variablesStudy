@@ -17,22 +17,43 @@ VariablesToPlot = [
 ]
 
 InputDNNVariables = [
-        # MERGED - DNN
-       # ['l1_e', 'l1_pt', 'l1_eta', 'l1_phi', 'l2_e','l2_pt', 'l2_eta', 'l2_phi', 'll_m', 'll_pt','fat_jet_E', 'fat_jet_pt', 'fat_jet_eta', 'fat_jet_phi','NJETS'],
 
-       # MERGED - pDNN
-       ['l1_e', 'l1_pt', 'l1_eta', 'l1_phi', 'l2_e','l2_pt', 'l2_eta', 'l2_phi', 'll_m', 'll_pt', 'fat_jet_E', 'fat_jet_pt', 'fat_jet_eta', 'fat_jet_phi', 'NJETS','truth_zv_mass'],
+    # MERGED
+#    ['NJETS','l1_eta','l2_eta','l2_phi','l1_phi','ll_pt','fat_jet_eta','fat_jet_phi','fat_jet_pt','fat_jet_E','MET','l1_pt'],
+#    ['NJETS','l1_eta','l2_eta','l2_phi','l1_phi','ll_pt','fat_jet_eta','fat_jet_phi','fat_jet_pt','fat_jet_E','MET','l1_e'],
+#    ['NJETS','l1_eta','l2_eta','l2_phi','l1_phi','ll_pt','fat_jet_eta','fat_jet_phi','fat_jet_pt','fat_jet_E','MET','l2_pt'],
+#    ['NJETS','l1_eta','l2_eta','l2_phi','l1_phi','ll_pt','fat_jet_eta','fat_jet_phi','fat_jet_pt','fat_jet_E','MET','l2_e'],
+#    ['NJETS','l1_eta','l2_eta','l2_phi','l1_phi','ll_pt','fat_jet_eta','fat_jet_phi','fat_jet_pt','fat_jet_E','MET','fat_jet_D2'],
+#    ['NJETS','l1_eta','l2_eta','l2_phi','l1_phi','ll_pt','fat_jet_eta','fat_jet_phi','fat_jet_pt','fat_jet_E','MET','fat_jet_C2'],
+#    ['NJETS','l1_eta','l2_eta','l2_phi','l1_phi','ll_pt','fat_jet_eta','fat_jet_phi','fat_jet_pt','fat_jet_E','MET','ratio_merged'],
+#    ['NJETS','l1_eta','l2_eta','l2_phi','l1_phi','ll_pt','fat_jet_eta','fat_jet_phi','fat_jet_pt','fat_jet_E','MET','ratio_resolved'],
+#    ['NJETS','l1_eta','l2_eta','l2_phi','l1_phi','ll_pt','fat_jet_eta','fat_jet_phi','fat_jet_pt','fat_jet_E','MET','fat_jet_ntrack']
 
-       # RESOLVED - pDNN
-       # ['l1_e', 'l1_pt', 'l1_eta', 'l1_phi', 'l2_e','l2_pt', 'l2_eta', 'l2_phi', 'll_m', 'll_pt', 'jj_pt', 'jj_j1pt', 'jj_eta', 'jj_phi','jj_m', 'jj_j1eta', 'jj_j1phi', 'jj_j1M', 'jj_j1NTracks', 'jj_j2pt', 'jj_j2eta', 'jj_j2phi', 'jj_j2M', 'jj_j2NTracks', 'NJETS','truth_zv_mass'],
-
+    # RESOLVED
+    ['NJETS','l2_eta','l1_eta','l1_phi','l2_phi','ll_pt','jj_eta','jj_phi','jj_pt','MET','jj_j2pt'],
+    ['NJETS','l2_eta','l1_eta','l1_phi','l2_phi','ll_pt','jj_eta','jj_phi','jj_pt','MET','jj_j1M'],
+    ['NJETS','l2_eta','l1_eta','l1_phi','l2_phi','ll_pt','jj_eta','jj_phi','jj_pt','MET','jj_j1pt'],
+    ['NJETS','l2_eta','l1_eta','l1_phi','l2_phi','ll_pt','jj_eta','jj_phi','jj_pt','MET','l1_pt'],
+    ['NJETS','l2_eta','l1_eta','l1_phi','l2_phi','ll_pt','jj_eta','jj_phi','jj_pt','MET','l2_pt'],
+    ['NJETS','l2_eta','l1_eta','l1_phi','l2_phi','ll_pt','jj_eta','jj_phi','jj_pt','MET','l2_e'],
+    ['NJETS','l2_eta','l1_eta','l1_phi','l2_phi','ll_pt','jj_eta','jj_phi','jj_pt','MET','ratio_resolved'],
+    ['NJETS','l2_eta','l1_eta','l1_phi','l2_phi','ll_pt','jj_eta','jj_phi','jj_pt','MET','l1_e'],
+    ['NJETS','l2_eta','l1_eta','l1_phi','l2_phi','ll_pt','jj_eta','jj_phi','jj_pt','MET','jj_j2NTracks'],
+    ['NJETS','l2_eta','l1_eta','l1_phi','l2_phi','ll_pt','jj_eta','jj_phi','jj_pt','MET','jj_j1NTracks'],
+    ['NJETS','l2_eta','l1_eta','l1_phi','l2_phi','ll_pt','jj_eta','jj_phi','jj_pt','MET','jj_j2M'],
+    ['NJETS','l2_eta','l1_eta','l1_phi','l2_phi','ll_pt','jj_eta','jj_phi','jj_pt','MET','ratio_merged'],
+    ['NJETS','l2_eta','l1_eta','l1_phi','l2_phi','ll_pt','jj_eta','jj_phi','jj_pt','MET','detajj'],
+    ['NJETS','l2_eta','l1_eta','l1_phi','l2_phi','ll_pt','jj_eta','jj_phi','jj_pt','MET','jj_j1eta'],
+    ['NJETS','l2_eta','l1_eta','l1_phi','l2_phi','ll_pt','jj_eta','jj_phi','jj_pt','MET','jj_j2eta'],
+    ['NJETS','l2_eta','l1_eta','l1_phi','l2_phi','ll_pt','jj_eta','jj_phi','jj_pt','MET','jj_j2phi'],
+    ['NJETS','l2_eta','l1_eta','l1_phi','l2_phi','ll_pt','jj_eta','jj_phi','jj_pt','MET','jj_j1phi']   
         ]
 
 ScanParams = {
-    "Width":[64,128,2000]
-    ,"BatchSize": [1024,2048]
-    ,"Depth":[3,4,5]
-    ,"LearningRate": [0.0003, 0.003]
+    "Width":[64]
+    ,"BatchSize": [1024]
+    ,"Depth":[4]
+    ,"LearningRate": [0.0003]
     ,"VarSet": [ i for i in range(0,len(InputDNNVariables))]
 
 }

@@ -2,8 +2,8 @@
 import os
 
 doConvertToPD      = 0
-doTrainTestSamples = 1
-doTraining         = 0
+doTrainTestSamples = 0
+doTraining         = 1
 doTestTrainedModel = 0
 doPlotValidation   = 0
 
