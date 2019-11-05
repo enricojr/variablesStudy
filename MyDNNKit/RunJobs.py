@@ -2,9 +2,9 @@
 import os
 
 doConvertToPD      = 0
-doTrainTestSamples = 0
+doTrainTestSamples = 1
 doTraining         = 0
-doTestTrainedModel = 1
+doTestTrainedModel = 0
 doPlotValidation   = 0
 
 # massPoints = ['1000','1200','1400','1600','1800','2000']
@@ -67,4 +67,4 @@ for n,i in enumerate(commands):
     print (" ")
     print ("--------------------------------------------")
     print (n,' -- ',i)
-    os.system(i)
+#    os.system(i)
