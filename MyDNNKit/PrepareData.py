@@ -51,7 +51,7 @@ def convertToPanda(setupClient):
                     X = Randomizing(df_full,False) # False means that a new column with the original event index will be generated and saved
 
                     fileInDir = re.sub('\.root$', '', fileInDir)
-                    if 'Data' in fileInDir:
+                    if 'data' in fileInDir:
                         print ('{:>20} {:<15}'.format('Data  events',Fore.GREEN+str(X.shape[0])+'\n'))
                         X.to_pickle(setupClient.PDPath+i+'.pkl')
                     else:

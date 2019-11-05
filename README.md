@@ -11,3 +11,10 @@ run as
 source convertFromRootToPanda.sh
 
 It takes the merged raw data, selects merged/resolved ggf/vbf events and creates pandas dataframes, after splitting the data into test and training samples
+
++++++++ createTrainAndTestSamples.sh
+run as
+
+source createTrainAndTestSamples.sh
+
+It takes the pickle files for signal and background, and creates the mixed and shuffled set split in test and train samples
