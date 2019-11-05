@@ -20,7 +20,7 @@ run as
 
 source createTrainAndTestSamples.sh
 
-It takes the pickle files for signal and background, and creates the mixed and shuffled set split in test and train samples
+It takes the pickle files for the 1TeV Higgs signal and background, and creates the mixed and shuffled set split in test and train samples
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 To prepare for the next steps, one must edit the MyDNNKit/Configuration.py file by enabling the useful variables.
@@ -49,6 +49,28 @@ run as
 source trainResolved.sh
 
 It builds the DNN and trains the resolved data.
+
+WARNING!!!
+Before running, edit MyDNNKit/Configuration.py to enable the corresponding variables
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++ scripts/testMerged.sh
+run as
+
+source testMerged.sh
+
+It builds the DNN and tests the merged data.
+
+WARNING!!!
+Before running, edit MyDNNKit/Configuration.py to enable the corresponding variables
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++ scripts/testResolved.sh
+run as
+
+source testResolved.sh
+
+It builds the DNN and tests the resolved data.
 
 WARNING!!!
 Before running, edit MyDNNKit/Configuration.py to enable the corresponding variables
