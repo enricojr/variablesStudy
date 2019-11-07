@@ -147,7 +147,7 @@ int copyPlotsToLocal(const string dataFolder,
       cout << __PRETTY_FUNCTION__ << ": ERROR!!! - cannot copy train plots" << endl;
       return 1;
     }
-    string commandTest = "cp " + testFolder + "/ROC.png " + plotsFolder + "ROC" + ii_ss.str() + ".png";
+    string commandTest = "cp " + testFolder + "/ROC_weighted.png " + plotsFolder + "ROC" + ii_ss.str() + ".png";
     if(system(commandTest.c_str())){
       cout << __PRETTY_FUNCTION__ << ": ERROR!!! - cannot copy test plots" << endl;
       return 1;
