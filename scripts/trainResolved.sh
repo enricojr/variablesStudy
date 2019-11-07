@@ -20,6 +20,7 @@ python RunML.py --Train --PDPath /nfs/kloe/einstein2/enricojr/data/2019-11-04/pa
 python RunML.py --Train --PDPath /nfs/kloe/einstein2/enricojr/data/2019-11-04/pandas_resolved_ggF/ -y 14 --MixPD_TrainTestTag mixPD_resolved_ggF -o /nfs/kloe/einstein2/enricojr/data/2019-11-04/pandas_resolved_ggF/train -m binary
 python RunML.py --Train --PDPath /nfs/kloe/einstein2/enricojr/data/2019-11-04/pandas_resolved_ggF/ -y 15 --MixPD_TrainTestTag mixPD_resolved_ggF -o /nfs/kloe/einstein2/enricojr/data/2019-11-04/pandas_resolved_ggF/train -m binary
 python RunML.py --Train --PDPath /nfs/kloe/einstein2/enricojr/data/2019-11-04/pandas_resolved_ggF/ -y 16 --MixPD_TrainTestTag mixPD_resolved_ggF -o /nfs/kloe/einstein2/enricojr/data/2019-11-04/pandas_resolved_ggF/train -m binary
+python RunML.py --Train --PDPath /nfs/kloe/einstein2/enricojr/data/2019-11-04/pandas_resolved_ggF/ -y 17 --MixPD_TrainTestTag mixPD_resolved_ggF -o /nfs/kloe/einstein2/enricojr/data/2019-11-04/pandas_resolved_ggF/train -m binary
 
 python RunML.py --Train --PDPath /nfs/kloe/einstein2/enricojr/data/2019-11-04/pandas_resolved_VBF/ -y 0 --MixPD_TrainTestTag mixPD_resolved_VBF -o /nfs/kloe/einstein2/enricojr/data/2019-11-04/pandas_resolved_VBF/train -m binary
 python RunML.py --Train --PDPath /nfs/kloe/einstein2/enricojr/data/2019-11-04/pandas_resolved_VBF/ -y 1 --MixPD_TrainTestTag mixPD_resolved_VBF -o /nfs/kloe/einstein2/enricojr/data/2019-11-04/pandas_resolved_VBF/train -m binary
@@ -38,5 +39,6 @@ python RunML.py --Train --PDPath /nfs/kloe/einstein2/enricojr/data/2019-11-04/pa
 python RunML.py --Train --PDPath /nfs/kloe/einstein2/enricojr/data/2019-11-04/pandas_resolved_VBF/ -y 14 --MixPD_TrainTestTag mixPD_resolved_VBF -o /nfs/kloe/einstein2/enricojr/data/2019-11-04/pandas_resolved_VBF/train -m binary
 python RunML.py --Train --PDPath /nfs/kloe/einstein2/enricojr/data/2019-11-04/pandas_resolved_VBF/ -y 15 --MixPD_TrainTestTag mixPD_resolved_VBF -o /nfs/kloe/einstein2/enricojr/data/2019-11-04/pandas_resolved_VBF/train -m binary
 python RunML.py --Train --PDPath /nfs/kloe/einstein2/enricojr/data/2019-11-04/pandas_resolved_VBF/ -y 16 --MixPD_TrainTestTag mixPD_resolved_VBF -o /nfs/kloe/einstein2/enricojr/data/2019-11-04/pandas_resolved_VBF/train -m binary
+python RunML.py --Train --PDPath /nfs/kloe/einstein2/enricojr/data/2019-11-04/pandas_resolved_VBF/ -y 17 --MixPD_TrainTestTag mixPD_resolved_VBF -o /nfs/kloe/einstein2/enricojr/data/2019-11-04/pandas_resolved_VBF/train -m binary
 
 cd -

@@ -74,3 +74,19 @@ It builds the DNN and tests the resolved data.
 
 WARNING!!!
 Before running, edit MyDNNKit/Configuration.py to enable the corresponding variables
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++ scripts/getDFsize.py
+run as
+
+python getDFsize.py
+
+Prints the size of all the pickle files (file names hardcoded in the script)
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++++++ scripts/makeReports.C
+run as
+
+root -b -q makeReports.C
+
+Copies the images to the report folder and creates the tex files of the report beamers

@@ -19,6 +19,7 @@ VariablesToPlot = [
 InputDNNVariables = [
 
     # MERGED
+    ['NJETS','l1_eta','l2_eta','l2_phi','l1_phi','ll_pt','fat_jet_eta','fat_jet_phi','fat_jet_pt','fat_jet_E','MET'],
     ['NJETS','l1_eta','l2_eta','l2_phi','l1_phi','ll_pt','fat_jet_eta','fat_jet_phi','fat_jet_pt','fat_jet_E','MET','l1_pt'],
     ['NJETS','l1_eta','l2_eta','l2_phi','l1_phi','ll_pt','fat_jet_eta','fat_jet_phi','fat_jet_pt','fat_jet_E','MET','l1_e'],
     ['NJETS','l1_eta','l2_eta','l2_phi','l1_phi','ll_pt','fat_jet_eta','fat_jet_phi','fat_jet_pt','fat_jet_E','MET','l2_pt'],
@@ -30,6 +31,7 @@ InputDNNVariables = [
     ['NJETS','l1_eta','l2_eta','l2_phi','l1_phi','ll_pt','fat_jet_eta','fat_jet_phi','fat_jet_pt','fat_jet_E','MET','fat_jet_ntrack']
 
     # RESOLVED
+#    ['NJETS','l2_eta','l1_eta','l1_phi','l2_phi','ll_pt','jj_eta','jj_phi','jj_pt','MET'],
 #    ['NJETS','l2_eta','l1_eta','l1_phi','l2_phi','ll_pt','jj_eta','jj_phi','jj_pt','MET','jj_j2pt'],
 #    ['NJETS','l2_eta','l1_eta','l1_phi','l2_phi','ll_pt','jj_eta','jj_phi','jj_pt','MET','jj_j1M'],
 #    ['NJETS','l2_eta','l1_eta','l1_phi','l2_phi','ll_pt','jj_eta','jj_phi','jj_pt','MET','jj_j1pt'],

@@ -92,7 +92,7 @@ def TrainDNN(setupClient):
 
     callbacks = [
         # if we don't have a decrease of the loss for 4 epochs, terminate training.
-        EarlyStopping(verbose=True, patience=3, monitor='val_loss'),
+        EarlyStopping(verbose=True, patience=5, monitor='val_loss'),
         # Always make sure that we're saving the model weights with the best val loss.
         ModelCheckpoint(modelpath+'/model.h5', monitor='val_loss', verbose=True, save_best_only=True)
     ]

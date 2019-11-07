@@ -4,8 +4,8 @@ import os
 doConvertToPD      = 0
 doTrainTestSamples = 0
 doTraining         = 0
-doTestTrainedModel = 0
-doPlotValidation   = 1
+doTestTrainedModel = 1
+doPlotValidation   = 0
 
 # massPoints = ['1000','1200','1400','1600','1800','2000']
 massPoints = ['1000']
@@ -49,8 +49,8 @@ if doTraining:
 modelpath = 'llqqDNN_64_1024_3_0.0003_VarSet0/'
 
 if doTestTrainedModel:
-    # commands += ['python RunML.py --LoadTrainedModel --doConfusionMatrix --doScore --doEfficiency --doROC --PDPath '+PDPath+' --MixPD_TrainTestTag '+mixedFileName+'  --TrainedModelPath DNN_Trained/Train_S1000/'+modelpath+'  -o  DNN_Tests/binary/ -m binary']
-    commands += ['python RunML.py --LoadTrainedModel --massPointToTest '"[1000,1200,1400,1600]"' --inSignalFiles=ggFH1000,ggFH1200,ggFH1400 --inDataFiles Data --inBackgrFiles mc16a_Zjets,mc16d_Zjets,mc16e_Zjets,Wjets,Diboson,Top --PDPath '+PDPath+' --MixPD_TrainTestTag '+mixedFileName+'  --TrainedModelPath DNN_Trained/Train_param/'+modelpath+'  -o  DNN_Tests/param/ -m param']
+    commands += ['python RunML.py --LoadTrainedModel --doConfusionMatrix --doScore --doEfficiency --doROC --PDPath '+PDPath+' --MixPD_TrainTestTag '+mixedFileName+'  --TrainedModelPath DNN_Trained/Train_S1000/'+modelpath+'  -o  DNN_Tests/binary/ -m binary']
+    #commands += ['python RunML.py --LoadTrainedModel --massPointToTest '"[1000,1200,1400,1600]"' --inSignalFiles=ggFH1000,ggFH1200,ggFH1400 --inDataFiles Data --inBackgrFiles mc16a_Zjets,mc16d_Zjets,mc16e_Zjets,Wjets,Diboson,Top --PDPath '+PDPath+' --MixPD_TrainTestTag '+mixedFileName+'  --TrainedModelPath DNN_Trained/Train_param/'+modelpath+'  -o  DNN_Tests/param/ -m param']
 
 
 
