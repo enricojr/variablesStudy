@@ -37,7 +37,8 @@ run as
 
 source trainMerged.sh
 
-It builds the DNN and trains the merged data.
+It builds the DNN and trains the merged data, given the list of variables hardcoded in the MyDNNKit/Configuration.py.
+The same script exists for variables set with 1 extra variable (no suffix) and 2 extra variables (_2variables suffix).
 
 WARNING!!!
 Before running, edit MyDNNKit/Configuration.py to enable the corresponding variables
@@ -48,7 +49,8 @@ run as
 
 source trainResolved.sh
 
-It builds the DNN and trains the resolved data.
+It builds the DNN and trains the resolved data, given the list of variables hardcoded in the MyDNNKit/Configuration.py.
+The same script exists for variables set with 1 extra variable (no suffix) and 2 extra variables (_2variables suffix).
 
 WARNING!!!
 Before running, edit MyDNNKit/Configuration.py to enable the corresponding variables
@@ -59,7 +61,8 @@ run as
 
 source testMerged.sh
 
-It builds the DNN and tests the merged data.
+It builds the DNN and tests the merged data, given the list of variables hardcoded in the MyDNNKit/Configuration.py.
+The same script exists for variables set with 1 extra variable (no suffix) and 2 extra variables (_2variables suffix).
 
 WARNING!!!
 Before running, edit MyDNNKit/Configuration.py to enable the corresponding variables
@@ -70,7 +73,8 @@ run as
 
 source testResolved.sh
 
-It builds the DNN and tests the resolved data.
+It builds the DNN and tests the resolved data, given the list of variables hardcoded in the MyDNNKit/Configuration.py.
+The same script exists for variables set with 1 extra variable (no suffix) and 2 extra variables (_2variables suffix).
 
 WARNING!!!
 Before running, edit MyDNNKit/Configuration.py to enable the corresponding variables
