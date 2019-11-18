@@ -4,3 +4,4 @@ rm -rf *~
 rm -rf includes/*~
 rm -rf MyDNNKit/*~
 rm -rf scripts/*~
+rm -rf scripts_parametric/*~

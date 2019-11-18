@@ -285,8 +285,8 @@ def TestParamModelOnTestSamples(setupClient,model):
         if ifile=='None' or ifile==[]:
             continue
         print ("Variables",VariablesSet)
-        print ('Opening DATA file',setupClient.PDPath+ifile)
-        df_data_full = getDFEvents(setupClient.PDPath,ifile,'Data')
+        print ('Opening DATAAAAA file',setupClient.PDPath+ifile)
+        df_data_full = getDFEvents(setupClient.PDPath,ifile,'data')
         if setupClient.PreselectionCuts !='':
             df_data_full = applyPreselection(df_data_full,setupClient.PreselectionCuts)
 

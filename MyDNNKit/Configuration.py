@@ -18,6 +18,12 @@ VariablesToPlot = [
 
 InputDNNVariables = [
 
+    # MERGED, parametrized
+    ['NJETS','l1_eta','l2_eta','l2_phi','l1_phi','ll_pt','fat_jet_eta','fat_jet_phi','fat_jet_pt','fat_jet_E','MET','truth_zv_mass']
+
+    # RESOLVED, parametrized
+#    ['NJETS','l2_eta','l1_eta','l1_phi','l2_phi','ll_pt','jj_eta','jj_phi','jj_pt','MET','truth_zv_mass']
+
     # MERGED
 #    ['NJETS','l1_eta','l2_eta','l2_phi','l1_phi','ll_pt','fat_jet_eta','fat_jet_phi','fat_jet_pt','fat_jet_E','MET'],
 #    ['NJETS','l1_eta','l2_eta','l2_phi','l1_phi','ll_pt','fat_jet_eta','fat_jet_phi','fat_jet_pt','fat_jet_E','MET','l1_pt'],
@@ -51,9 +57,9 @@ InputDNNVariables = [
 #    ['NJETS','l2_eta','l1_eta','l1_phi','l2_phi','ll_pt','jj_eta','jj_phi','jj_pt','MET','jj_j1phi']   
 
     # MERGED 2 VARIABLES
-    ['NJETS','l1_eta','l2_eta','l2_phi','l1_phi','ll_pt','fat_jet_eta','fat_jet_phi','fat_jet_pt','fat_jet_E','MET'],
-    ['NJETS','l1_eta','l2_eta','l2_phi','l1_phi','ll_pt','fat_jet_eta','fat_jet_phi','fat_jet_pt','fat_jet_E','MET','l1_pt','l2_pt'],
-    ['NJETS','l1_eta','l2_eta','l2_phi','l1_phi','ll_pt','fat_jet_eta','fat_jet_phi','fat_jet_pt','fat_jet_E','MET','l1_e','l2_e'],
+#    ['NJETS','l1_eta','l2_eta','l2_phi','l1_phi','ll_pt','fat_jet_eta','fat_jet_phi','fat_jet_pt','fat_jet_E','MET'],
+#    ['NJETS','l1_eta','l2_eta','l2_phi','l1_phi','ll_pt','fat_jet_eta','fat_jet_phi','fat_jet_pt','fat_jet_E','MET','l1_pt','l2_pt'],
+#    ['NJETS','l1_eta','l2_eta','l2_phi','l1_phi','ll_pt','fat_jet_eta','fat_jet_phi','fat_jet_pt','fat_jet_E','MET','l1_e','l2_e'],
 
     # RESOLVED 2 VARIABLES
 #    ['NJETS','l2_eta','l1_eta','l1_phi','l2_phi','ll_pt','jj_eta','jj_phi','jj_pt','MET'],
